@@ -1,5 +1,5 @@
 import { RankingScoreModel } from '@/data/models';
 
 export type LoadLastRankingRepository = {
-  loadLastRanking: () => RankingScoreModel[]
+  loadLastRanking: () => Promise<RankingScoreModel[]>
 }
