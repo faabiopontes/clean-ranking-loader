@@ -5,7 +5,7 @@ import { RankingUnavailableError } from '@/domain/errors';
 
 export class LastRankingLoaderService implements LastRankingLoader {
   constructor(
-    private readonly loadLastRankingRepository: LoadLastRankingRepository
+    private readonly loadLastRankingRepository: LoadLastRankingRepository,
   ) {}
 
   async load(): Promise<RankingScore[]> {

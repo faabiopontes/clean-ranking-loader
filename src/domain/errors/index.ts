@@ -1,1 +1,1 @@
-export * from "./ranking-unavailable";
+export * from './ranking-unavailable';
